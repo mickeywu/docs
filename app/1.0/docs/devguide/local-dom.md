@@ -518,8 +518,8 @@ Polymer.dom(this.$.container).insertBefore(insert, this.$.first);
 ## Remove empty text nodes {#strip-whitespace}
 
 Add the `strip-whitespace` boolean attribute to a template to remove
-any empty text nodes from the template's contents. This can result in a
-minor performance improvement.
+any empty text nodes from the template's contents. This will result in a
+minor performance hit.
 
 With empty text nodes:
 
